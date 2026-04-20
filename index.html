@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>StuntRiding | Стантрайдинг в России</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Шрифты -->
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap"
+    rel="stylesheet">
+    
+    <!-- Библиотеки -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babylonjs/6.0.0/babylon.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <header class="hero">
+        <!-- Видео на заднем плане -->
+        <div class="video-background">
+            <video autoplay muted loop playsinline id="bg-video">
+                <source src="13595522501325.mp4" type="video/mp4">
+                Ваш браузер не поддерживает видео.
+            </video>
+        </div>
+        
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <h1 class="glitch-text" data-text="STUNTRIDING">STUNTRIDING</h1>
+            <p>Контроль на грани невозможного. Искусство управления мотоциклом.</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn-primary">Погрузиться</a>
+                <a href="#gallery" class="btn-outline">Галерея</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about" class="scroll-down">▼</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Раздел История -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">Что такое стантрайдинг?</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p><strong>Стантрайдинг</strong> (от англ. stunt — «трюк» и ride — «езда») — экстремальный вид мотоспорта, который заключается в выполнении акробатических трюков на мотоцикле на ровной площадке. В отличие от мотофристайла, где трюки выполняются во время прыжков, в стантрайдинге они демонстрируются на асфальте.</p>
+                        <p>Этот спорт требует абсолютного контроля над техникой в нестандартных положениях и многомесячных, а иногда и многолетних тренировок.</p>
+                        <div class="history-stats">
+                            <div class="stat">Зародился в 90-х</div>
+                            <div class="stat">Россия — лидер Европы</div>
+                            <div class="stat">Более 50 трюков</div>
+                        </div>
+                    </div>
+                    <div class="about-video"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Базовые трюки + Безопасность -->
+        <section id="tricks" class="section dark-bg">
+            <div class="container">
+                <h2 class="section-title">Основные трюки и Безопасность</h2>
+                <div class="cards-wrapper">
+                    <div class="card">
+                        <h3>Wheelie</h3>
+                        <img src="Supermoto_Wheelie.jpg" width="150" height="150" loading="lazy" alt="Wheelie">
+                        <p>Езда на заднем колесе. Классика стантра.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Stoppie</h3>
+                        <img src="1803855_image_origin.jpg" width="150" height="150" loading="lazy" alt="Stoppie">
+                        <p>Резкая остановка с подъёмом заднего колеса.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Burnout</h3>
+                        <img src="i (8).webp" width="150" height="150" loading="lazy" alt="Burnout">
+                        <p>Разгон заднего колеса до дыма на месте.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Highchair</h3>
+                        <img src="i.(6)webp.jpg" width="150" height="150" loading="lazy" alt="Highchair">
+                        <p>Сидя на бензобаке, ноги через руль.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Can Can</h3>
+                        <img src="i (6).jpg" width="150" height="150" loading="lazy" alt="Can Can">
+                        <p>Стоя на подножке, вторая нога вытянута.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Kangaroo</h3>
+                        <video width="150" height="150" controls>
+                            <source src="13585262774989.mp4" type="video/mp4">
+                            Ваш браузер не поддерживает тег video.
+                        </video>
+                        <p>Стоппи с разворотом 180° и прыжком.</p>
+                    </div>
+                </div>
+                <div class="safety-box">
+                    <h3>Правила безопасности</h3>
+                    <ul>
+                        <li>Полная экипировка: шлем, черепаха, наколенники, мотоботы.</li>
+                        <li>Только ровный асфальт, минимум 50x50 метров, без препятствий.</li>
+                        <li>Обязательные защитные дуги на мотоцикле (клетка безопасности).</li>
+                        <li>Тренировки только с инструктором (самообучение по видео — опасно!).</li>
+                        <li>Хорошие тормоза как на мототехнике так и в голове .</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Российские райдеры -->
+        <section id="riders" class="section">
+            <div class="container">
+                <h2 class="section-title">Легенды российского стантрайдинга</h2>
+                <div class="riders-grid">
+                    <div class="rider-card">
+                        <p>_____________________</p>
+                        <img src="i (67).png" height="250" loading="lazy" alt="Никита Покусай">
+                        <h3>Никита Покусай</h3>
+                        <p>2-е место INTERIO Stunt Cup (2015), 3-е место Interio Stunt Cup. Kawasaki Ninja ZX636.</p>
+                        <a href="https://yandex.ru/video/preview/9923658691426830784" target="_blank" class="video-link">Смотреть видео</a>
+                    </div>
+                    <div class="rider-card">
+                        <p>_____________________</p>
+                        <img src="KSvOGhPDsrk.jpg" height="250" loading="lazy" alt="Григорий Талдыкин">
+                        <h3>Григорий Талдыкин</h3>
+                        <p>Абсолютный чемпион России, лидер Huge Happy Family. 1-е место в командном зачёте 2023.</p>
+                        <a href="https://yandex.ru/video/preview/15754482825806989374" target="_blank" class="video-link">Смотреть видео</a>
+                    </div>
+                    <div class="rider-card">
+                        <p>_____________________</p>
+                        <img src="__medium_1-015.jpg.jpg" height="250" loading="lazy" alt="Фома Калинин">
+                        <h3>Фома Калинин</h3>
+                        <p>Чемпион мира (2021), России и Европы. Первый россиянин на мировом олимпе.</p>
+                        <a href="https://yandex.ru/video/preview/5685277023921423589" target="_blank" class="video-link">Смотреть видео</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Как начать -->
+        <section id="start" class="section dark-bg">
+            <div class="container">
+                <h2 class="section-title">Как начать заниматься?</h2>
+                <div class="start-grid">
+                    <div class="start-item">
+                        <h3>Мотоцикл</h3>
+                        <img src="i (7).webp" width="260" height="250" loading="lazy" alt="Мотоцикл">
+                        <p>600 куб.см: Honda CBR 600RR, Kawasaki ZX-6R, Yamaha R6. Обязательны: защитные дуги, усиленный задний тормоз, дублирующий тормоз на руль.</p>
+                    </div>
+                    <div class="start-item">
+                        <h3>Экипировка</h3>
+                        <img src="6937115337.jpg" width="260" height="250" loading="lazy" alt="Экипировка">
+                        <p>Шлем, «черепаха», наколенники, мотоботы, подшлемник, мотодождевик.</p>
+                    </div>
+                    <div class="start-item">
+                        <h3>Площадка</h3>
+                        <img src="IMG_3964.jpg" width="260" height="250" loading="lazy" alt="Площадка">
+                        <p>Ровный асфальт, зоны безопасности, отсутствие бордюров. Размер от 50х50 метров.</p>
+                    </div>
+                    <div class="start-item">
+                        <h3>Тренер</h3>
+                        <img src="b5f65f591d62a4c88c3288691ea19cf9.jpg" width="260" height="250" loading="lazy" alt="Тренер">
+                        <p>Только опытный инструктор. Правильные падения, техника безопасности — залог успеха.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Галерея и 3D вид -->
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2 class="section-title">Галерея и 3D Модель</h2>
+                <div class="gallery-3d-row">
+                    <div class="gallery-preview">
+                        <div class="slider-container">
+                            <div class="slider">
+                                <img src="i.webp" alt="Stunt bike wheelie">
+                                <img src="i (5).webp" alt="Stunt rider burnout">
+                                <img src="i (4).webp" alt="Motorcycle stunt">
+                                <img src="i (3).webp" alt="Action stunt">
+                                <img src="i1.webp" alt="Action stunt">
+                                <img src="jWvA051DqnQ.jpg" alt="Action stunt">
+                                <img src="i (9).webp" alt="Action stunt">
+                                <img src="i (10).webp" alt="Action stunt">
+                                <img src="stantrayder-2.png" alt="Action stunt">
+                                <img src="moto.jpg" alt="Action stunt">
+                                <img src="i (11).webp" alt="Action stunt">
+                                <img src="d8tl74168sp70s8jwcumejdb92udrynj.jpg" alt="Action stunt">
+                            </div>
+                            <button class="slider-btn prev">❮</button>
+                            <button class="slider-btn next">❯</button>
+                        </div>
+                    </div>
+                    <div class="canvas-3d-container">
+                        <h3>Вращай колесо мышкой</h3>
+                        <canvas id="three-canvas"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Мероприятия -->
+        <section id="events" class="section dark-bg">
+            <div class="container">
+                <h2 class="section-title">Последние мероприятия</h2>
+                <div class="events-list">
+                    <div class="event-item">
+                        <span class="event-date">15 Июня 2025</span>
+                        <span class="event-name">Moscow Stunt Fest | Парк Яуза</span>
+                    </div>
+                    <div class="event-item">
+                        <span class="event-date">12 Июля 2025</span>
+                        <span class="event-name">Stunt Battle: SPB vs MSK</span>
+                    </div>
+                    <div class="event-item">
+                        <span class="event-date">30 Августа 2025</span>
+                        <span class="event-name">Чемпионат России по стантрайдингу (финал)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Эх, надеюсь с сайтом всё хорошо</p>
+        <p>Ля, ля, ля стант это весело</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
